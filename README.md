@@ -14,7 +14,7 @@ Explored 48,000+ Adult Income records to uncover socio-economic profiles beyond 
 
 **Python · Unsupervised learning · Statistical analysis · Data reasoning**
 
-[Explore the analysis](https://github.com/chenymwork-eng/adult-income-gender-clustering) — report and code document available.
+[Explore the analysis](https://github.com/chenymwork-eng/adult-income-gender-clustering) — analysis notebook available as a PDF.
 
 ### London Underground Database System
 Designed a relational database for London Underground transport data, with a normalised schema, data-integrity controls and SQL queries for operational reporting. The focus: turning a complex information system into structured data that can be queried and used.
