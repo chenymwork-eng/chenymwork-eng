@@ -67,10 +67,27 @@ Research into how vision-language models behave and are evaluated across cultura
 **Hugging Face · LoRA / QLoRA · Model evaluation**  
 Results are not yet final.
 
+### 06 / Amytis — Research into interaction design
+**Group K · Final prototype · End-to-end contributor**
+
+Contributed to user interviews, analysis, personas, interaction design, prototyping and evaluation. The team's **12 survey responses and 5 interviews** informed a **Now / Next / Context** workspace designed to help researchers resume work after interruptions.
+
+**Research → product value:** translate context-loss and distraction findings into Resume, Focus Mode and visible activity trails, then refine the design through evaluation. AI summaries remain conceptual; reduced cognitive load is an intended benefit, not a measured outcome.
+
+[Explore the Amytis case study](https://github.com/chenymwork-eng/ISD-Reseach-App-for-neurodivergent)
+
+### 07 / Risk & decision analysis
+**Completed analytical case studies**
+
+Used Python and pyAgrum for Bayesian reasoning, compared classification thresholds, examined confounding and expected utility, and analysed why technically strong AI models can fail to gain adoption.
+
+**Research → business value:** connect model behaviour with error costs, uncertainty, interpretability and the decisions users actually need to make.
+
+[Explore the decision-analysis case study](projects/risk-and-decision-analysis.md)
+
 <details>
 <summary><strong>Other projects</strong></summary>
 
-- **Neurodivergent App Design:** information-systems design project; materials are not currently available in the public repository.
 - **Trustworthy Physiological Computing:** ongoing exploratory research on stress and cognitive-affective cost estimation; details remain private.
 
 </details>
