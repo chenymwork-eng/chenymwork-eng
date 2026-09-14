@@ -1,103 +1,69 @@
-![Yumeng Chen — Research to business value. Huawei UK R&D outcomes: 1,000+ AI entities connected, approximately 30% less manual analysis effort, and 10+ strategic opportunity evaluations supported.](assets/research-to-value.svg)
+![Yumeng Chen — Research to business value](assets/research-to-value.svg)
 
-I believe rigorous analysis earns its value when someone can use it. I build intelligence systems, evaluate models and translate findings into clear choices.
+**AI strategy · Data intelligence · Model auditing**
 
-**Previously: AI Strategy & Research Analyst, Huawei UK R&D**  
-[LinkedIn](https://www.linkedin.com/in/yumeng-chen-5a7578214/) · [Kaggle](https://www.kaggle.com/yumengchen8097) · [Explore my analysis](https://github.com/chenymwork-eng/adult-income-gender-clustering)
+I turn complex evidence into clear choices. My interest is the space between a research finding and a decision someone can act on.
 
-![My workflow: frame the decision, build and test evidence, explain the finding, then turn it into a report, tool or next step.](assets/decision-workflow.svg)
+Previously **AI Strategy & Research Analyst, Huawei UK R&D**.  
+[LinkedIn](https://www.linkedin.com/in/yumeng-chen-5a7578214/) · [Kaggle](https://www.kaggle.com/yumengchen8097) · [Full project portfolio](projects/portfolio-details.md)
 
-## Research → insight → business value
+## Selected work
 
-### 01 / AI intelligence systems
-**Professional work · Delivered**
+### 01 / Beyond averages
+**Socio-economic analysis · Completed**
 
-| Research & build | Decision support | Delivered value |
-| :--- | :--- | :--- |
-| Connected 1,000+ AI entities in a five-layer Neo4j graph; built Power BI monitoring for 1,000+ companies. | Made research, company and market information easier to explore across teams. | Automated workflows reduced manual analysis effort by approximately **30%**. |
-| Analysed frontier AI, investment trends and partnership opportunities. | Produced **5+ research reports** for senior R&D and strategy teams. | Supported **10+ strategic opportunity evaluations** with R&D, M&A, HR and Legal. |
+[![Original research figure: PCA comparison of K-Means and Gaussian Mixture Models](https://raw.githubusercontent.com/chenymwork-eng/adult-income-gender-clustering/main/figures/fig06-pca-comparison.jpg)](https://github.com/chenymwork-eng/adult-income-gender-clustering)
 
-**Python · Neo4j · Power BI · Competitive intelligence**  
-Internal data and implementation remain confidential.
+**Question:** what population differences do averages hide?  
+**Evidence:** analysed **48,842 records** using K-Means, GMM and interpretable profiles. The selected models exposed different levels of detail; the PCA view alone does not establish model superiority.  
+**Decision relevance:** turn segments into testable questions for market research and service design. These are potential applications, not causal or commercial results.
 
-### 02 / Socio-economic analysis & latent cluster discovery
-**48,842 records · Original figures from my final analysis report · [Explore all figures](https://github.com/chenymwork-eng/adult-income-gender-clustering)**
+**Python · Statistical analysis · Data reasoning**  
+[Explore the findings and 11 original report visuals →](https://github.com/chenymwork-eng/adult-income-gender-clustering)
 
-![Original report Figure 6: PCA comparison of K-Means and GMM](https://raw.githubusercontent.com/chenymwork-eng/adult-income-gender-clustering/main/figures/fig06-pca-comparison.jpg)
+### 02 / Amytis — Make it easier to resume
+**User research → interaction design · Team project · Final prototype**
 
-**Research finding:** the selected GMM solution reveals more differentiated female profiles than the two-group K-Means solution. PCA makes the model differences visible; it is an interpretive view, not proof of model superiority.
+**Question:** how can a workspace help people recover context after interruptions?  
+**Evidence:** the team's **12 survey responses and 5 interviews** informed a **Now / Next / Context** prototype. I contributed across research, analysis, design, prototyping and evaluation.  
+**Product relevance:** translated findings into Resume, Focus Mode and activity trails. Cognitive-load reduction is a design goal; AI summaries remain conceptual.
 
-![Original report Table 1: Male GMM profiles](https://raw.githubusercontent.com/chenymwork-eng/adult-income-gender-clustering/main/figures/table01-male-profiles.jpg)
-![Original report Table 2: Female GMM profiles](https://raw.githubusercontent.com/chenymwork-eng/adult-income-gender-clustering/main/figures/table02-female-profiles.jpg)
+**User research · Synthesis · Prototyping · Evaluation**  
+[See how research shaped the product →](https://github.com/chenymwork-eng/ISD-Reseach-App-for-neurodivergent)
 
-**From model output to insight:** income was excluded from training, yet the resulting profiles differ in income concentration. The report shows above-50K shares ranging from **1.7–61.8%** in male clusters and **2.1–38.7%** in female clusters. Cluster IDs are not comparable across the separately fitted models.
+### 03 / When is a model useful?
+**Risk & decision analysis · Completed analytical case studies**
 
-**Business relevance:** turn clusters into understandable profiles and testable questions for market research or service design. These are potential applications, not measured commercial outcomes or causal conclusions.
+**Question:** how should uncertainty and error costs change a decision?  
+**Evidence:** used Bayesian reasoning, threshold comparisons and expected utility to examine model choices, confounding and adoption.  
+**Decision relevance:** evaluate a model against the consequences of its errors and the needs of its users.
 
-**Python · Clustering · Statistical analysis · Data reasoning**  
-[Full visual case study: model selection, silhouette, cluster sizes, PCA, 3D and data context](https://github.com/chenymwork-eng/adult-income-gender-clustering)
+**Python · pyAgrum · Bayesian reasoning · Decision analysis**  
+[Explore the decision cases →](projects/risk-and-decision-analysis.md)
 
-### 03 / London Underground database system
-**Completed project · Implementation materials not currently public**
-
-| Operational question | What I built | Practical purpose |
-| :--- | :--- | :--- |
-| How can complex transport information become consistent and queryable? | A normalised relational schema, data-integrity controls and SQL reporting queries. | A structured foundation for operational reporting and reliable information retrieval. |
-
-**My translation:** good data design makes the next business question easier to answer.
-
-**SQL · Database design · Normalisation · Data integrity**
-
-### 04 / AI model auditing & cross-cultural evaluation
+### 04 / AI model auditing
 **Research · Related paper accepted to ICMI 2026**
 
-Research into how vision-language models behave and are evaluated across cultural contexts.
+Examining vision-language model behaviour and evaluation across cultural contexts, with a focus on what evidence teams need before trusting a model for a use case.
 
-**Decision relevance:** understanding evaluation limits helps teams judge whether evidence is sufficient for a particular use case.
+**More details after publication in October 2026.**
 
-> More details will be shared after publication in **October 2026**.
+## Professional impact
 
-### 05 / Reproducible LLM fine-tuning
-**Independent project · In progress**
+At **Huawei UK R&D**, I connected research and market intelligence with strategic questions: **5+ reports**, monitoring of **1,000+ companies**, and support for **10+ opportunity evaluations**. Automated workflows reduced manual analysis effort by approximately **30%**. Internal data and implementation remain confidential.
 
-| Building | Evaluating | Intended decision |
-| :--- | :--- | :--- |
-| Instruction-data preparation and SFT workflows using Transformers, PEFT, LoRA and QLoRA. | Base-versus-adapted model performance, robustness and error patterns. | Whether adaptation offers a useful improvement for a defined task. |
+[Read the work context →](projects/portfolio-details.md#01--ai-intelligence-systems)
 
-**Hugging Face · LoRA / QLoRA · Model evaluation**  
-Results are not yet final.
+## More work
 
-### 06 / Amytis — Research into interaction design
-**Group K · Final prototype · End-to-end contributor**
+- **London Underground database system — completed:** normalised relational design, integrity controls and SQL reporting for consistent, queryable transport information. [Overview →](projects/portfolio-details.md#03--london-underground-database-system)
+- **Reproducible LLM fine-tuning — in progress:** Transformers, PEFT, LoRA/QLoRA and base-versus-adapted evaluation; results are not final. [Overview →](projects/portfolio-details.md#05--reproducible-llm-fine-tuning)
+- **Sustainable banking prototype:** transaction analysis translated into an illustrative product concept. [Case study →](https://www.kaggle.com/writeups/yumengchen8097/sustainable-banking-from-transaction-data-to-prod)
 
-Contributed to user interviews, analysis, personas, interaction design, prototyping and evaluation. The team's **12 survey responses and 5 interviews** informed a **Now / Next / Context** workspace designed to help researchers resume work after interruptions.
+## How I work
 
-**Research → product value:** translate context-loss and distraction findings into Resume, Focus Mode and visible activity trails, then refine the design through evaluation. AI summaries remain conceptual; reduced cognitive load is an intended benefit, not a measured outcome.
+**Analyse:** Python, SQL, statistics, segmentation, data reasoning.  
+**Build & evaluate:** PyTorch, Transformers, PEFT, LoRA/QLoRA, model auditing.  
+**Make it useful:** Power BI, Neo4j, AI strategy, clear research writing in English and Chinese.
 
-[Explore the Amytis case study](https://github.com/chenymwork-eng/ISD-Reseach-App-for-neurodivergent)
-
-### 07 / Risk & decision analysis
-**Completed analytical case studies**
-
-Used Python and pyAgrum for Bayesian reasoning, compared classification thresholds, examined confounding and expected utility, and analysed why technically strong AI models can fail to gain adoption.
-
-**Research → business value:** connect model behaviour with error costs, uncertainty, interpretability and the decisions users actually need to make.
-
-[Explore the decision-analysis case study](projects/risk-and-decision-analysis.md)
-
-<details>
-<summary><strong>Other projects</strong></summary>
-
-- **Trustworthy Physiological Computing:** ongoing exploratory research on stress and cognitive-affective cost estimation; details remain private.
-
-</details>
-
-## Tools I use to make the work useful
-
-| Analyse & reason | Build & evaluate | Communicate & support decisions |
-| :--- | :--- | :--- |
-| Python · SQL · Pandas · NumPy | PyTorch · Transformers · PEFT | Power BI · Tableau · Neo4j |
-| Statistics · Segmentation · Data reasoning | Qwen · LLaVA · CLIP · LoRA / QLoRA | Research reports in English & Chinese |
-| Evidence quality · Interpretation | Model auditing · Error analysis | AI strategy · Competitive intelligence |
-
-**Interested in opportunities at the intersection of AI strategy, analytics and evidence-based research.**
+**Interested in AI strategy, analytics and evidence-based research.**
