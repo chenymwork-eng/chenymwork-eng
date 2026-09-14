@@ -21,16 +21,21 @@ I believe rigorous analysis earns its value when someone can use it. I build int
 Internal data and implementation remain confidential.
 
 ### 02 / Socio-economic analysis & latent cluster discovery
-**Completed analysis · [View the notebook PDF](https://github.com/chenymwork-eng/adult-income-gender-clustering/blob/main/adult_income_gender_clustering_notebook.pdf)**
+**48,842 records · Original figures from my final analysis report · [Explore all figures](https://github.com/chenymwork-eng/adult-income-gender-clustering)**
 
-| Question | Approach | Finding | Business relevance |
-| :--- | :--- | :--- | :--- |
-| Which population profiles are hidden by overall averages? | Analysed 48,000+ Adult Income records; compared K-Means and GMM, with PCA and visual interpretation. | Identified distinct socio-economic clusters and differences in income concentration across groups. | Demonstrates how segmentation can generate hypotheses for market research, service design and resource planning. |
+![Original report Figure 6: PCA comparison of K-Means and GMM](https://raw.githubusercontent.com/chenymwork-eng/adult-income-gender-clustering/main/figures/fig06-pca-comparison.jpg)
 
-**My translation:** a cluster is a starting point for investigation. Explain who it describes, what differs, and what needs validation before using it in a decision.
+**Research finding:** the selected GMM solution reveals more differentiated female profiles than the two-group K-Means solution. PCA makes the model differences visible; it is an interpretive view, not proof of model superiority.
+
+![Original report Table 1: Male GMM profiles](https://raw.githubusercontent.com/chenymwork-eng/adult-income-gender-clustering/main/figures/table01-male-profiles.jpg)
+![Original report Table 2: Female GMM profiles](https://raw.githubusercontent.com/chenymwork-eng/adult-income-gender-clustering/main/figures/table02-female-profiles.jpg)
+
+**From model output to insight:** income was excluded from training, yet the resulting profiles differ in income concentration. The report shows above-50K shares ranging from **1.7–61.8%** in male clusters and **2.1–38.7%** in female clusters. Cluster IDs are not comparable across the separately fitted models.
+
+**Business relevance:** turn clusters into understandable profiles and testable questions for market research or service design. These are potential applications, not measured commercial outcomes or causal conclusions.
 
 **Python · Clustering · Statistical analysis · Data reasoning**  
-Business uses above are potential applications; this study does not establish causal effects or commercial uplift.
+[Full visual case study: model selection, silhouette, cluster sizes, PCA, 3D and data context](https://github.com/chenymwork-eng/adult-income-gender-clustering)
 
 ### 03 / London Underground database system
 **Completed project · Implementation materials not currently public**
