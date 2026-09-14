@@ -1,56 +1,81 @@
-# Yumeng Chen
-**AI strategy · Data intelligence · Model auditing**
+![Yumeng Chen — Research to business value. Huawei UK R&D outcomes: 1,000+ AI entities connected, approximately 30% less manual analysis effort, and 10+ strategic opportunity evaluations supported.](assets/research-to-value.svg)
 
-I turn rigorous analysis into intelligence that helps people make better decisions. I care about clear evidence, interpretable findings and what the analysis can actually change.
+I believe rigorous analysis earns its value when someone can use it. I build intelligence systems, evaluate models and translate findings into clear choices.
 
-Previously an **AI Strategy & Research Analyst at Huawei UK R&D**, where I built intelligence systems, developed automated analysis workflows and supported strategic opportunity evaluations.
+**Previously: AI Strategy & Research Analyst, Huawei UK R&D**  
+[LinkedIn](https://www.linkedin.com/in/yumeng-chen-5a7578214/) · [Kaggle](https://www.kaggle.com/yumengchen8097) · [Explore my analysis](https://github.com/chenymwork-eng/adult-income-gender-clustering)
 
-[LinkedIn](https://www.linkedin.com/in/yumeng-chen-5a7578214/) · [Kaggle](https://www.kaggle.com/yumengchen8097)
+![My workflow: frame the decision, build and test evidence, explain the finding, then turn it into a report, tool or next step.](assets/decision-workflow.svg)
 
-## Projects
+## Research → insight → business value
 
-### Socio-Economic Analysis & Latent Cluster Discovery
-Explored 48,000+ Adult Income records to uncover socio-economic profiles beyond direct income prediction. Compared **K-Means and Gaussian Mixture Models**, using **PCA**, visual analysis and gender-stratified comparisons to interpret the resulting groups.
+### 01 / AI intelligence systems
+**Professional work · Delivered**
 
-**Python · Unsupervised learning · Statistical analysis · Data reasoning**
+| Research & build | Decision support | Delivered value |
+| :--- | :--- | :--- |
+| Connected 1,000+ AI entities in a five-layer Neo4j graph; built Power BI monitoring for 1,000+ companies. | Made research, company and market information easier to explore across teams. | Automated workflows reduced manual analysis effort by approximately **30%**. |
+| Analysed frontier AI, investment trends and partnership opportunities. | Produced **5+ research reports** for senior R&D and strategy teams. | Supported **10+ strategic opportunity evaluations** with R&D, M&A, HR and Legal. |
 
-[Explore the analysis](https://github.com/chenymwork-eng/adult-income-gender-clustering) — analysis notebook available as a PDF.
+**Python · Neo4j · Power BI · Competitive intelligence**  
+Internal data and implementation remain confidential.
 
-### London Underground Database System
-Designed a relational database for London Underground transport data, with a normalised schema, data-integrity controls and SQL queries for operational reporting. The focus: turning a complex information system into structured data that can be queried and used.
+### 02 / Socio-economic analysis & latent cluster discovery
+**Completed analysis · [View the notebook PDF](https://github.com/chenymwork-eng/adult-income-gender-clustering/blob/main/adult_income_gender_clustering_notebook.pdf)**
 
-**SQL · Relational database design · Normalisation · Data integrity**
+| Question | Approach | Finding | Business relevance |
+| :--- | :--- | :--- | :--- |
+| Which population profiles are hidden by overall averages? | Analysed 48,000+ Adult Income records; compared K-Means and GMM, with PCA and visual interpretation. | Identified distinct socio-economic clusters and differences in income concentration across groups. | Demonstrates how segmentation can generate hypotheses for market research, service design and resource planning. |
 
-Completed project; implementation materials are not currently public.
+**My translation:** a cluster is a starting point for investigation. Explain who it describes, what differs, and what needs validation before using it in a decision.
 
-### AI Model Auditing & Cross-Cultural Evaluation
-Research into the behaviour and evaluation of vision-language models across cultural contexts.
+**Python · Clustering · Statistical analysis · Data reasoning**  
+Business uses above are potential applications; this study does not establish causal effects or commercial uplift.
 
-**Related paper accepted to ICMI 2026. More details will be shared after publication in October 2026.**
+### 03 / London Underground database system
+**Completed project · Implementation materials not currently public**
 
-### Reproducible LLM Fine-Tuning
-Developing an instruction-data preparation and supervised fine-tuning workflow using **Hugging Face Transformers, PEFT, LoRA and QLoRA**. Evaluation work focuses on comparing base and adapted models, robustness and error analysis.
+| Operational question | What I built | Practical purpose |
+| :--- | :--- | :--- |
+| How can complex transport information become consistent and queryable? | A normalised relational schema, data-integrity controls and SQL reporting queries. | A structured foundation for operational reporting and reliable information retrieval. |
 
-**In progress** — results are not yet final.
+**My translation:** good data design makes the next business question easier to answer.
 
-### AI Intelligence Systems & Research
-At Huawei UK R&D, built a five-layer Neo4j graph connecting **1,000+ AI entities** and a Power BI dashboard tracking **1,000+ companies**. Developed workflows that reduced manual analysis effort by approximately **30%** and supported **10+ strategic opportunity evaluations**.
+**SQL · Database design · Normalisation · Data integrity**
 
-**Python · Neo4j · Power BI · Competitive intelligence**
+### 04 / AI model auditing & cross-cultural evaluation
+**Research · Related paper accepted to ICMI 2026**
 
-Professional work; internal data and implementation remain confidential.
+Research into how vision-language models behave and are evaluated across cultural contexts.
 
-### Other Work
-- **Neurodivergent App Design:** an information-systems design project; project materials are not currently available in the public repository.
+**Decision relevance:** understanding evaluation limits helps teams judge whether evidence is sufficient for a particular use case.
+
+> More details will be shared after publication in **October 2026**.
+
+### 05 / Reproducible LLM fine-tuning
+**Independent project · In progress**
+
+| Building | Evaluating | Intended decision |
+| :--- | :--- | :--- |
+| Instruction-data preparation and SFT workflows using Transformers, PEFT, LoRA and QLoRA. | Base-versus-adapted model performance, robustness and error patterns. | Whether adaptation offers a useful improvement for a defined task. |
+
+**Hugging Face · LoRA / QLoRA · Model evaluation**  
+Results are not yet final.
+
+<details>
+<summary><strong>Other projects</strong></summary>
+
+- **Neurodivergent App Design:** information-systems design project; materials are not currently available in the public repository.
 - **Trustworthy Physiological Computing:** ongoing exploratory research on stress and cognitive-affective cost estimation; details remain private.
 
-## Toolkit
+</details>
 
-| Area | Skills & tools |
-| --- | --- |
-| Data & reasoning | Python, SQL, Pandas, NumPy, statistical analysis, segmentation, evidence-based interpretation |
-| AI & model evaluation | PyTorch, Qwen, LLaVA, CLIP, model auditing, error analysis, cross-cultural evaluation |
-| Fine-tuning | Supervised fine-tuning, LoRA, QLoRA, Hugging Face Transformers, PEFT |
-| Intelligence & communication | Power BI, Tableau, Neo4j, research reporting in English and Chinese |
+## Tools I use to make the work useful
 
-I’m interested in roles connecting **AI strategy, analytics and evidence-based research**.
+| Analyse & reason | Build & evaluate | Communicate & support decisions |
+| :--- | :--- | :--- |
+| Python · SQL · Pandas · NumPy | PyTorch · Transformers · PEFT | Power BI · Tableau · Neo4j |
+| Statistics · Segmentation · Data reasoning | Qwen · LLaVA · CLIP · LoRA / QLoRA | Research reports in English & Chinese |
+| Evidence quality · Interpretation | Model auditing · Error analysis | AI strategy · Competitive intelligence |
+
+**Interested in opportunities at the intersection of AI strategy, analytics and evidence-based research.**
