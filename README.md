@@ -5,6 +5,8 @@ I build data tools, evaluate AI models and translate research into practical dec
 **MSc Computer Science, Queen Mary University of London — Distinction**  
 Previously **AI Strategy & Research Analyst, Huawei UK R&D** · London
 
+**[Explore my visual portfolio →](https://chenymwork-eng.github.io/)**
+
 [Projects](#selected-projects) · [Timeline](#career-and-learning-timeline) · [Skills](#skills-in-context) · [Publication](#publication)  
 [LinkedIn](https://www.linkedin.com/in/yumeng-chen-5a7578214/) · [Kaggle](https://www.kaggle.com/yumengchen8097) · [Detailed portfolio](projects/portfolio-details.md)
 
