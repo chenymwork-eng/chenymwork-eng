@@ -1,4 +1,4 @@
-![Yumeng Chen — Research to business value. Huawei UK R&D outcomes: 1,000+ AI entities connected, approximately 30% less manual analysis effort, and 10+ strategic opportunity evaluations supported.](../assets/research-to-value.svg)
+![Yumeng Chen — AI strategy, analytics, model auditing and technical delivery](../assets/research-to-value.svg)
 
 I believe rigorous analysis earns its value when someone can use it. I build intelligence systems, evaluate models and translate findings into clear choices.
 
@@ -9,12 +9,19 @@ I believe rigorous analysis earns its value when someone can use it. I build int
 
 ## Research → insight → business value
 
+### Source Intelligence Platform
+**Ongoing · Team project**
+
+Responsible for system development and maintenance, technical support and technical consulting. [Open the live demo](https://source-intelligence-demo-nc2026.bronzecocoa16.chatgpt.site).
+
+[Career and learning timeline](../README.md#career-and-learning-timeline) · [Skills in context](../README.md#skills-in-context)
+
 ### 01 / AI intelligence systems
 **Professional work · Delivered**
 
 | Research & build | Decision support | Delivered value |
 | :--- | :--- | :--- |
-| Connected 1,000+ AI entities in a five-layer Neo4j graph; built Power BI monitoring for 1,000+ companies. | Made research, company and market information easier to explore across teams. | Automated workflows reduced manual analysis effort by approximately **30%**. |
+| Structured a five-layer Neo4j graph; built Power BI monitoring for 1,000+ companies. | Made research, company and market information easier to explore across teams. | Automated recurring reporting workflows and supported internal users with training, technical support and system maintenance. |
 | Analysed frontier AI, investment trends and partnership opportunities. | Produced **5+ research reports** for senior R&D and strategy teams. | Supported **10+ strategic opportunity evaluations** with R&D, M&A, HR and Legal. |
 
 **Python · Neo4j · Power BI · Competitive intelligence**  
@@ -49,13 +56,13 @@ Internal data and implementation remain confidential.
 **SQL · Database design · Normalisation · Data integrity**
 
 ### 04 / AI model auditing & cross-cultural evaluation
-**Research · Related paper accepted to ICMI 2026**
+**Apr–Aug 2026 · Related paper published at ACM ICMI 2026**
 
 Research into how vision-language models behave and are evaluated across cultural contexts.
 
 **Decision relevance:** understanding evaluation limits helps teams judge whether evidence is sufficient for a particular use case.
 
-> More details will be shared after publication in **October 2026**.
+Built evaluation workflows and controlled prompt comparisons across Qwen2.5-VL and LLaVA-NeXT, and trained Qwen adapters using LoRA / QLoRA. Analysed how cultural framing and annotation standards affect model decisions. [Read the published paper](https://doi.org/10.1145/3776574.3832464).
 
 ### 05 / Reproducible LLM fine-tuning
 **Independent project · In progress**
